@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 
 var myWebController = angular.module('myWebController', []);
 myWebController.controller('MyAppController', 
