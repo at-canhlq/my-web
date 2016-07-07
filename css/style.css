@@ -152,6 +152,10 @@ body {
   font-weight: 400;
   text-align: center;
 }
+.result table span {
+  float: right;
+  color: #FF9933;
+}
 
 /*Details*/
 .details h1 {
