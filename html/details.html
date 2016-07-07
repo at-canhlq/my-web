@@ -1,0 +1,41 @@
+<div class="container-fluid">
+  <div class="row details" ng-controller="DetailsController">
+    <div class="details-info col-md-5">
+      <img ng-src="{{person.image}}" alt="No image">
+      <ul>
+        <li>
+          <span class="badge">{{person.sbd}}</span> 
+          <span id="gender"><img ng-src="{{gender}}" style="height:20px; width:20px;"></span>
+          <span class="label label-info"> {{person.name}}</span>
+        </li>
+        <li class="glyphicon glyphicon-calendar"> {{person.dob}}</li>
+      </ul>
+    </div><!--
+
+    --><div class="col-md-7">
+      <h1>Kết quả</h1>
+      <table>
+        <tr>
+          <th>Toán</th>
+          <th>Vật lý</th>
+          <th>Hóa học</th>
+          <th>Sinh học</th>
+          <th>Văn học</th>
+          <th>Lịch sử</th>
+          <th>Địa lý</th>
+          <th>Tiếng Anh</th>
+        </tr>
+        <tr>
+          <td>{{person.math}}</td>
+          <td>{{person.physics}}</td>
+          <td>{{person.chemistry}}</td>
+          <td>{{person.biology}}</td>
+          <td>{{person.literature}}</td>
+          <td>{{person.history}}</td>
+          <td>{{person.geography}}</td>
+          <td>{{person.english}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

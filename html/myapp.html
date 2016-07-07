@@ -1,0 +1,54 @@
+<div class="row myapp" ng-controller="MyAppController">
+  <h2>Tra cứu điểm thi</h2>
+  <h4>Kỳ thi THPT Quốc gia 2016</h4>
+  <form class="form-group">
+    <table>
+      <tr>
+        <td>Tìm kiếm theo</td>
+        <td>
+          <select ng-model="searchBy" class="form-control">
+            <option value="name">Tên
+            </option>
+            <option value="sbd">SBD
+            </option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Từ khóa</td>
+        <td class="input-group input-group-lg">
+          <span class="input-group-addon">
+            <span class="glyphicon glyphicon-search"></span>
+          </span>
+          <input type="text" class="form-control" ng-model="searchKey" 
+          placeholder="Nhập tên hoặc SBD">
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button ng-click="findResult()" class="btn btn-success">Tìm kiếm</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <div class="result">
+    <p ng-show="notfound" class="alert alert-danger">Input not found</p>
+    <table ng-show="showresult" class="table table-hover">
+      <tr>
+        <th ng-click="orderChoosen('sbd')">SBD</td>
+        <th ng-click="orderChoosen('name')">Họ tên</th>
+        <th>Ngày sinh</th>
+        <th>Chi tiết</th>
+      </tr>
+      <tr ng-repeat="ts in listTS | orderBy: orderByMe">
+        <td>{{ts.sbd}}</td>
+        <td>{{ts.name}}</td>
+        <td>{{ts.dob}}</td>
+        <td><a href="#/myapp/{{ts.sbd}}">
+          <img src="images/icons/button-xemchitiet.png" alt="Chi tiết" height="30px">
+        </a></td>
+      </tr>
+    </table>
+  </div>
+</div>

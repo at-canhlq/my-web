@@ -1,0 +1,25 @@
+{
+  "name": "my-web",
+  "version": "1.0.0",
+  "description": "This website was designed to introduce some AngularJS APIs.",
+  "scripts": {
+    "postinstal": "bower install",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at-canhlq/my-web.git"
+  },
+  "author": "at-canhlq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/at-canhlq/my-web/issues"
+  },
+  "homepage": "https://github.com/at-canhlq/my-web/",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  }
+}

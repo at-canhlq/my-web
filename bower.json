@@ -1,0 +1,24 @@
+{
+  "name": "my-web",
+  "version": "1.0.0",
+  "description": "This website was designed to introduce some AngularJS APIs.",
+  "authors": [
+    "at-canhlq"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/at-canhlq/my-web/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-loader": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "angular-resource": "^1.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}

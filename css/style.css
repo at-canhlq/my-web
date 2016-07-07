@@ -1,0 +1,200 @@
+/*Body Default*/
+body {
+  background: #293f50;
+  color: #888;
+  line-height: 1;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*Navbar Header and Footer*/
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.navbar-inverse {
+  background: #293f50;
+  border: none;
+  margin: 30px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+.navbar-header small {
+  float: left;
+  font-weight: 400;
+}
+
+/*Rows*/
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row {
+  background: #fff;
+  padding: 66px 50px 44px 50px;
+}
+.row-alt-home {
+  background: #495C6A;
+  background: -webkit-linear-gradient(#293f50, #7F8C96);
+  background:    -moz-linear-gradient(#293f50, #7F8C96);
+  background:         linear-gradient(#293f50, #7F8C96);
+  padding: 44px 0 22px 0;
+}
+.row-alt-about {
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+}
+
+/*Home*/
+.home-about {
+  color: #7F8C30;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.home-about h2 {
+  color: #7F8C30;
+  font-size: 36px;
+  font-weight: 600;
+}
+.home-about p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.home p {
+  font-weight: bold;
+  font-size: 16px;
+}
+.home a:hover {
+  color: #FF6600;
+  text-decoration: none;
+}
+.home img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
+
+/*About*/
+.about-me,
+.about {
+  line-height: 20px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.about-me h3 {
+  text-align: left;
+  padding-left: 100px;
+}
+.about-me table {
+  text-align: left;
+  color: #333366;
+  font-weight: bold;
+  padding-left: 100px;
+}
+.about-me td {
+  padding: 10px;
+}
+.about-me td .label .label-info {
+  margin: 10px;
+}
+.about-me a:hover {
+ color: #FF3333;
+}
+.about table {
+  text-align: left;
+  color: #333366;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+}
+.about tr td {
+  margin: auto 10px;
+}
+
+/*MyApp*/
+.myapp {
+  line-height: 20px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+  color: #23365B;
+}
+.myapp table {
+  text-align: left;
+  margin: 0 auto;
+  color: #333366;
+  font-weight: bold;
+}
+.myapp td, tr, th {
+  padding: 10px;
+}
+.result table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+}
+.result tr td, .result tr th {
+  border: 1px solid black;
+}
+.result th {
+  background: #333366;
+  color: #ffffff;
+  text-align: center;
+}
+.result p {
+  color: red;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*Details*/
+.details h1 {
+  text-align: center;
+  color: 333366;
+  margin-top: 80px;
+}
+.details table {
+  text-align: center;
+  margin: auto;
+  color: #333366;
+  font-weight: bold;
+}
+.details tr td, .details tr th {
+  padding: 10px;
+  border: 1px solid black;
+}
+.details th {
+  background: #333366;
+  color: #ffffff;
+}
+.details-info ul {
+  list-style: none;
+  padding: 0;  
+  color: #4169E1;
+}
+.details-info li {
+  padding: 5px;
+}
+.details-info {
+  border: 1px solid #333366;
+  border-radius: 15px;
+  margin-top: 88px;
+  width: 30%;
+  padding-bottom: 22px;
+  text-align: center;
+}
+#gender img {
+  margin: 0;
+}
+.details-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
