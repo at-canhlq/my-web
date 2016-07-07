@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This website was designed to introduce some AngularJS APIs.",
   "scripts": {
-    "postinstal": "bower install",
+    "postinstall": "bower install",
     "prestart": "npm install",
-    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
   },
   "repository": {
     "type": "git",
